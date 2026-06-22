@@ -5,7 +5,7 @@ from repro_manifest.diff import Change, Risk, diff_manifests, has_high_risk
 from repro_manifest.models import Manifest
 from repro_manifest.storage import load, loads, save
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "Change",
