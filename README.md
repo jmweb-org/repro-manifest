@@ -1,5 +1,10 @@
 # repro-manifest
 
+[![CI](https://github.com/jmweb-org/repro-manifest/actions/workflows/ci.yml/badge.svg)](https://github.com/jmweb-org/repro-manifest/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/repro-manifest.svg)](https://pypi.org/project/repro-manifest/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Wrap a run to capture a portable manifest of its environment, code, config and
 seeds, then diff two manifests to explain why two runs differed.
 
