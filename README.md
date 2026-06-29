@@ -29,7 +29,8 @@ medium  command  argv             ... --lr 0.05 -> ... --lr 0.1
 ## Install
 
 ```console
-$ pip install repro-manifest
+$ pip install repro-manifest                 # from PyPI, once released
+$ pip install git+https://github.com/jmweb-org/repro-manifest   # latest, available now
 ```
 
 No services, no account, no SDK to weave into your training loop. One command,
